@@ -1,0 +1,129 @@
+:root {
+  --milk: #ffffff;
+  --night: #212121;
+  --fog: #2f303a;
+  --sky: #2196f3;
+  --snow: #f5f4fa;
+  --cloud: #757575;
+  --coffee: #000000;
+  --pixel: 14px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--milk);
+  color: var(--night);
+}
+.wall {
+  background: var(--snow);
+}
+.main {
+  color: var(--milk);
+  background: var(--fog);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+}
+.skil {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.box {
+  font-weight: 700;
+  font-size: var(--pixel);
+  line-height: 1.14;
+}
+.boxs {
+  color: var(--cloud);
+  font-weight: 400;
+  font-size: var(--pixel);
+  line-height: 1.7;
+}
+.black-link {
+  color: inherit;
+  font-weight: 500;
+  font-size: var(pixel);
+  line-height: 1.14;
+  text-decoration: none;
+}
+.black-link:hover {
+  color: var(--sky);
+}
+.black-link:focus {
+  color: var(--sky);
+}
+.social-links {
+  color: var(--cloud);
+  font-weight: 500;
+  font-size: var(--pixel);
+  line-height: 1.14;
+  text-decoration: none;
+}
+.social-links:hover {
+  color: var(--sky);
+}
+.social-links:focus {
+  color: var(--sky);
+}
+.post {
+  color: var(--milk);
+  font-style: normal;
+}
+.address-link {
+  color: var(--cloud);
+  font-style: normal;
+  font-size: var(--pixel);
+  line-height: 1.5;
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--sky);
+}
+.address-link:focus {
+  color: var(--sky);
+}
+.stil {
+  font-family: "Raleway", sans-serif;
+  color: var(--coffee);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.stil:focus {
+  color: var(--sky);
+}
+.web {
+  color: var(--sky);
+}
+.stil-two {
+  font-family: "Raleway", sans-serif;
+  color: var(--milk);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.push {
+  background: var(--snow);
+}
+.push:hover {
+  background: var(--sky);
+  color: var(--milk);
+  cursor: pointer;
+}
+.push:focus {
+  background: var(--sky);
+  color: var(--milk);
+}
+.wall-secend {
+  background: var(--fog);
+}
+.man {
+  background: var(--milk);
+  text-align: center;
+}
+.secend-push {
+  text-align: center;
+}
