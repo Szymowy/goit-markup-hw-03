@@ -23,12 +23,11 @@ body {
 }
 h1 {
   font-family: "Roboto", sans-serif;
-  height: 600px;
-  margin: 0px;
-  padding-top: 200px;
-  padding-right: 252px;
-  padding-bottom: 280px;
-  padding-left: 252px;
+  color: var(--milk);
+  background: var(--fog);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 }
 ul {
   list-style-type: none;
@@ -56,13 +55,11 @@ ul {
 }
 .going {
   gap: 46px;
-  margin: 28px 0px;
+  margin: 30px 0px;
 }
 .mobil {
   gap: 50px;
   margin: 28px 0px;
-}
-.item {
 }
 .black-link {
   color: inherit;
@@ -91,13 +88,11 @@ ul {
   color: var(--sky);
 }
 .main {
-  color: var(--milk);
-  background: var(--fog);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  margin: 0px;
+  padding: 200px 350px;
   text-transform: uppercase;
   text-align: center;
+  border: 1px ridge;
 }
 .one {
   width: 200px;
@@ -178,8 +173,7 @@ ul {
 }
 .wall-secend {
   background: var(--fog);
-  height: 252px;
-  padding-top: 60px;
+  padding: 60px 800px 60px 0px;
   border-top: 1px ridge;
   display: block;
 }
@@ -228,7 +222,7 @@ ul {
   gap: 30px;
   margin: 34px 0px 94px;
   padding: 0px 015px;
-} 
+}
 .card {
   width: 370px;
   height: 404px;
