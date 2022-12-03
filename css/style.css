@@ -8,39 +8,58 @@
   --coffee: #000000;
   --pixel: 14px;
 }
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.little-top {
+  display: flex;
+  justify-content: space-around;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: var(--milk);
   color: var(--night);
 }
-.wall {
-  background: var(--snow);
-}
-.main {
+h1 {
+  font-family: "Roboto", sans-serif;
   color: var(--milk);
   background: var(--fog);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-transform: uppercase;
-  text-align: center;
 }
-.skil {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+ul {
+  list-style-type: none;
 }
-.box {
-  font-weight: 700;
-  font-size: var(--pixel);
-  line-height: 1.14;
+.mount {
+  height: 80px;
+  border-bottom: 1px ridge;
 }
-.boxs {
-  color: var(--cloud);
-  font-weight: 400;
-  font-size: var(--pixel);
-  line-height: 1.7;
+.top-stil {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.stil {
+  font-family: "Raleway", sans-serif;
+  color: var(--coffee);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.stil:focus {
+  color: var(--sky);
+}
+.start {
+  gap: 93px;
+}
+.going {
+  gap: 46px;
+  margin: 30px 0px;
+}
+.mobil {
+  gap: 50px;
+  margin: 28px 0px;
 }
 .black-link {
   color: inherit;
@@ -68,9 +87,100 @@ body {
 .social-links:focus {
   color: var(--sky);
 }
+.main {
+  margin: 0px;
+  padding: 200px 350px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px ridge;
+}
+.one {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 41px;
+}
+.push {
+  background: var(--snow);
+  color: var(--night);
+  font-size: 16px;
+  line-height: 160%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+}
+.push:hover {
+  background: var(--sky);
+  color: var(--milk);
+  cursor: pointer;
+}
+.push:focus {
+  background: var(--sky);
+  color: var(--milk);
+}
+.mag {
+  height: 101px;
+  margin: 94px 0px;
+  padding: 0px 95px;
+  gap: 30px;
+}
+.box {
+  font-weight: 700;
+  font-size: var(--pixel);
+  line-height: 1.14;
+  margin: 0px;
+}
+.boxs {
+  color: var(--cloud);
+  font-weight: 400;
+  font-size: var(--pixel);
+  line-height: 1.7;
+}
+.skil {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.team {
+  padding: 94px 0px 48px;
+}
+.point {
+  margin: 50px 0px;
+  padding: 0px 15px;
+  gap: 30px;
+}
+.wall {
+  background: var(--snow);
+  height: 648px;
+}
+.pill {
+  height: 368px;
+  margin: 0px;
+  padding: 0px 15px;
+  gap: 30px;
+}
+.pills {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px;
+}
+.man {
+  background: var(--milk);
+  text-align: center;
+  margin: 0px;
+  height: 368px;
+}
+.wall-secend {
+  background: var(--fog);
+  padding: 60px 800px 60px 0px;
+  border-top: 1px ridge;
+  display: block;
+}
 .post {
   color: var(--milk);
   font-style: normal;
+  padding-left: 215px;
 }
 .address-link {
   color: var(--cloud);
@@ -85,18 +195,44 @@ body {
 .address-link:focus {
   color: var(--sky);
 }
-.stil {
-  font-family: "Raleway", sans-serif;
-  color: var(--coffee);
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
+.secend-push {
+  display: flex;
+  margin: 94px 0px 50px 0px;
+  padding: 0px 310px 0px 330px;
+  gap: 8px;
 }
-.stil:focus {
-  color: var(--sky);
+.they {
+  width: 121px;
+  height: 38px;
 }
-.web {
-  color: var(--sky);
+.he {
+  width: 93px;
+  height: 38px;
+}
+.she {
+  width: 141px;
+  height: 38px;
+}
+.it {
+  width: 91px;
+  height: 38px;
+}
+.card-set {
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 34px 0px 94px;
+  padding: 0px 015px;
+}
+.card {
+  width: 370px;
+  height: 404px;
+  border: 1px ridge;
+}
+.glass {
+  margin: 0px;
+}
+.ring {
+  margin: 20px 24px;
 }
 .stil-two {
   font-family: "Raleway", sans-serif;
@@ -104,26 +240,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  padding-left: 215px;
 }
-.push {
-  background: var(--snow);
-}
-.push:hover {
-  background: var(--sky);
-  color: var(--milk);
-  cursor: pointer;
-}
-.push:focus {
-  background: var(--sky);
-  color: var(--milk);
-}
-.wall-secend {
-  background: var(--fog);
-}
-.man {
-  background: var(--milk);
-  text-align: center;
-}
-.secend-push {
-  text-align: center;
+.web {
+  color: var(--sky);
 }
