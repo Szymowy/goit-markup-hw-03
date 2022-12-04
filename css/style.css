@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --milk: #ffffff;
   --night: #212121;
@@ -7,6 +11,10 @@
   --cloud: #757575;
   --coffee: #000000;
   --pixel: 14px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 .wrapper {
   display: flex;
@@ -121,9 +129,9 @@ ul {
   color: var(--milk);
 }
 .mag {
-  height: 101px;
+  /* height: 101px;*/
   margin: 94px 0px;
-  padding: 0px 95px;
+  padding: 0px 15px;
   gap: 30px;
 }
 .box {
@@ -153,12 +161,12 @@ ul {
 }
 .wall {
   background: var(--snow);
-  height: 648px;
+  /* height: 648px;  */
 }
 .pill {
-  height: 368px;
+  /* height: 368px; */
   margin: 0px;
-  padding: 0px 15px;
+  padding: 0px 15px 96px;
   gap: 30px;
 }
 .pills {
@@ -173,14 +181,15 @@ ul {
 }
 .wall-secend {
   background: var(--fog);
-  padding: 60px 800px 60px 0px;
+  padding: 60px 0px;
   border-top: 1px ridge;
-  display: block;
+  /* display: block; */
 }
 .post {
   color: var(--milk);
   font-style: normal;
-  padding-left: 215px;
+  padding-top: 20px;
+  /* padding-left: 215px; */
 }
 .address-link {
   color: var(--cloud);
@@ -240,7 +249,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  padding-left: 215px;
 }
 .web {
   color: var(--sky);
