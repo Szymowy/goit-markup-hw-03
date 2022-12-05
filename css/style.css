@@ -32,7 +32,6 @@ body {
 h1 {
   font-family: "Roboto", sans-serif;
   color: var(--milk);
-  background: var(--fog);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -40,13 +39,21 @@ h1 {
 ul {
   list-style-type: none;
 }
+.wall-title {
+  background: var(--fog);
+}
+.title {
+  padding: 200px 252px;
+  width: 650px;
+  text-transform: uppercase;
+  text-align: center;
+}
 .mount {
-  height: 80px;
   border-bottom: 1px ridge;
 }
 .top-stil {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .stil {
   font-family: "Raleway", sans-serif;
@@ -63,11 +70,11 @@ ul {
 }
 .going {
   gap: 46px;
-  margin: 30px 0px;
+  padding: 30px 0px;
 }
 .mobil {
   gap: 50px;
-  margin: 28px 0px;
+  padding: 28px 0px;
 }
 .black-link {
   color: inherit;
@@ -95,20 +102,31 @@ ul {
 .social-links:focus {
   color: var(--sky);
 }
-.main {
-  margin: 0px;
-  padding: 200px 350px;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px ridge;
-}
 .one {
-  width: 200px;
-  height: 50px;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   padding: 10px 41px;
+}
+.service {
+  width: 200px;
+  height: 50px;
+}
+.all-marketing {
+  width: 121px;
+  height: 38px;
+}
+.side {
+  width: 93px;
+  height: 38px;
+}
+.app {
+  width: 141px;
+  height: 38px;
+}
+.design {
+  width: 91px;
+  height: 38px;
 }
 .push {
   background: var(--snow);
@@ -129,16 +147,13 @@ ul {
   color: var(--milk);
 }
 .mag {
-  /* height: 101px;*/
-  margin: 94px 0px;
-  padding: 0px 15px;
+  padding: 94px 15px;
   gap: 30px;
 }
 .box {
   font-weight: 700;
   font-size: var(--pixel);
   line-height: 1.14;
-  margin: 0px;
 }
 .boxs {
   color: var(--cloud);
@@ -155,17 +170,13 @@ ul {
   padding: 94px 0px 48px;
 }
 .point {
-  margin: 50px 0px;
-  padding: 0px 15px;
+  padding: 50px 15px;
   gap: 30px;
 }
 .wall {
   background: var(--snow);
-  /* height: 648px;  */
 }
 .pill {
-  /* height: 368px; */
-  margin: 0px;
   padding: 0px 15px 96px;
   gap: 30px;
 }
@@ -176,20 +187,17 @@ ul {
 .man {
   background: var(--milk);
   text-align: center;
-  margin: 0px;
-  height: 368px;
+  padding: 30px 0px;
 }
 .wall-secend {
   background: var(--fog);
   padding: 60px 0px;
   border-top: 1px ridge;
-  /* display: block; */
 }
 .post {
   color: var(--milk);
   font-style: normal;
   padding-top: 20px;
-  /* padding-left: 215px; */
 }
 .address-link {
   color: var(--cloud);
@@ -206,42 +214,22 @@ ul {
 }
 .secend-push {
   display: flex;
-  margin: 94px 0px 50px 0px;
-  padding: 0px 310px 0px 330px;
+  padding: 94px 318px 50px 310px;
   gap: 8px;
-}
-.they {
-  width: 121px;
-  height: 38px;
-}
-.he {
-  width: 93px;
-  height: 38px;
-}
-.she {
-  width: 141px;
-  height: 38px;
-}
-.it {
-  width: 91px;
-  height: 38px;
 }
 .card-set {
   flex-wrap: wrap;
   gap: 30px;
-  margin: 34px 0px 94px;
-  padding: 0px 015px;
+  padding-bottom: 94px;
 }
 .card {
-  width: 370px;
-  height: 404px;
-  border: 1px ridge;
-}
-.glass {
-  margin: 0px;
+  display: block;
 }
 .ring {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-left: 1px ridge;
+  border-right: 1px ridge;
+  border-bottom: 1px ridge;
 }
 .stil-two {
   font-family: "Raleway", sans-serif;
