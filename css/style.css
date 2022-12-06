@@ -106,12 +106,7 @@ ul {
 .social-links:focus {
   color: var(--sky);
 }
-.one {
-  /* margin-right: auto;
-  margin-left: auto; */
-}
 .service {
-  /* margin-top: 30px; */
   width: 200px;
   height: 50px;
   margin-right: auto;
@@ -175,18 +170,12 @@ ul {
   padding: 94px 0px;
 }
 .team {
-  /* padding: 94px 0px 48px; */
   padding-bottom: 50px;
-}
-.point {
-  /* padding: 50px 15px; */
-  /* gap: 30px; */
 }
 .wall {
   background: var(--snow);
 }
 .pill {
-  /* padding: 0px 15px 96px; */
   gap: 30px;
 }
 .pills {
