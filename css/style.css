@@ -167,14 +167,17 @@ ul {
   font-size: 36px;
   line-height: 1.16;
 }
+.rock {
+  padding-top: 94px;
+}
 .section {
   padding-bottom: 94px;
 }
 .team {
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 .wall {
+  padding-bottom: 50px;
   background: var(--snow);
 }
 .pill {
